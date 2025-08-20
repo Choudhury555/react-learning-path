@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  test:
+  PR_GATE_CHECK:
     runs-on: ubuntu-latest
 
     steps:
